@@ -6,6 +6,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 To install all required packages:
 ### `npm install`
+And then change directory to the public folder and run the command again:
+### `npm install`
 
 In the project directory, you can run:
 
