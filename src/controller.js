@@ -1,0 +1,1 @@
+export const direction = ['RIGHT', 2]

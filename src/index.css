@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.pickedWord {
+  background: #226AC2 !important;
+  color: #fcfcfc !important;
+}
+
+.selectedButton {
+  /* background: lightcoral !important; */
+  font-size: 45px;
+  color: #1676D1;
+  animation: hovering 3s ease-in-out forwards;
+}
+
+@keyframes hovering {
+  from {
+    color: #3B3B45;
+    background: #F6FAFD;
+  }
+  to {
+    color: #fdfdfd;
+    background: #226AC2;
+  }
+}
